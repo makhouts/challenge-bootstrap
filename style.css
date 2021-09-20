@@ -3,7 +3,7 @@ body {
 }
 .img-fluid {
     width: auto;
-     height: 150px;
+    height: 150px;
 }
 
 .display-6 {
@@ -56,4 +56,10 @@ p {
     width: 100%;
     padding-left: 200px;
     padding-top: 80px;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper{
+        padding-left: 0px;
+    }
 }
