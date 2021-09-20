@@ -1,11 +1,10 @@
 body {
-    background-color: #d5edff;
+    background-color: #e3f3ff83;
 }
 .img-fluid {
     width: auto;
      height: 150px;
 }
-
 
 .display-6 {
     color: rgb(80, 80, 80);
@@ -51,4 +50,10 @@ p {
 .active {
     font-weight: bold;
     font-size: 29px;
+}
+
+.wrapper {
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 80px;
 }
