@@ -1,0 +1,54 @@
+body {
+    background-color: #d5edff;
+}
+.img-fluid {
+    width: auto;
+     height: 150px;
+}
+
+
+.display-6 {
+    color: rgb(80, 80, 80);
+}
+
+hr {
+    width: 100px;
+    margin: 0 auto;
+}
+
+p {
+    color: rgb(133, 133, 133);
+}
+
+.btn {
+    margin-top: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border-radius: 25px;
+    color: rgb(80, 80, 80);
+    font-weight: 700;
+}
+
+.btn:hover {
+    transition: 0.5s;
+    color: #fff;
+    background-color: #7ac1f8;
+}
+
+.fixed-left {
+    position: fixed;
+    height: 100%;
+    background: linear-gradient(to bottom, #10028b, #35008a, #180070); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 200px;
+}
+
+.fixed-left a {
+    color: white;
+    font-size: 22px;
+}
+
+.active {
+    font-weight: bold;
+    font-size: 29px;
+}
